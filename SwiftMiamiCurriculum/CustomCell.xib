@@ -21,25 +21,27 @@
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XAY-WL-spW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="79.5"/>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAk-Tg-Znw">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tAk-Tg-Znw">
                         <rect key="frame" x="124.5" y="0.0" width="37.5" height="21"/>
                         <constraints>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="181" id="XoQ-cp-lMp"/>
                             <constraint firstAttribute="height" constant="21" id="qu1-KJ-SVN"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Soi-6K-OyB">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Soi-6K-OyB">
                         <rect key="frame" x="134" y="58.5" width="37.5" height="21"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="21" id="5Rk-e1-Oda"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="175" id="Koz-7W-UaD"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="911-Jg-kzR">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="911-Jg-kzR">
                         <rect key="frame" x="366.5" y="58.5" width="37.5" height="21"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="21" id="ZbF-6z-kYP"/>
@@ -72,13 +74,13 @@
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Album:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agV-2T-lxM">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Album:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agV-2T-lxM">
                         <rect key="frame" x="78" y="61.5" width="51" height="18"/>
                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URR-Kl-nvF">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Artist:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URR-Kl-nvF">
                         <rect key="frame" x="316.5" y="58.5" width="45" height="21"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="21" id="Fn0-WG-S4T"/>
@@ -134,7 +136,9 @@
                     <constraint firstItem="MTK-gK-mDs" firstAttribute="top" secondItem="Xm2-qE-2Cu" secondAttribute="top" id="gQr-r5-Ieh"/>
                     <constraint firstItem="hgn-59-QlW" firstAttribute="top" secondItem="Xm2-qE-2Cu" secondAttribute="top" id="h0D-nq-wcZ"/>
                     <constraint firstAttribute="bottom" secondItem="agV-2T-lxM" secondAttribute="bottom" id="hjt-fk-F7K"/>
+                    <constraint firstItem="hgn-59-QlW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="tAk-Tg-Znw" secondAttribute="trailing" constant="7.5" id="iUX-mW-W8O"/>
                     <constraint firstAttribute="trailing" secondItem="1lz-nQ-ctU" secondAttribute="trailing" constant="10" id="jv2-ho-MUs"/>
+                    <constraint firstItem="URR-Kl-nvF" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Soi-6K-OyB" secondAttribute="trailing" constant="7.5" id="nsD-OG-UJW"/>
                     <constraint firstItem="1lz-nQ-ctU" firstAttribute="top" secondItem="Xm2-qE-2Cu" secondAttribute="top" id="qID-sS-Qt8"/>
                     <constraint firstItem="XAY-WL-spW" firstAttribute="top" secondItem="Xm2-qE-2Cu" secondAttribute="top" id="rOn-Xa-k6Q"/>
                     <constraint firstAttribute="bottom" secondItem="911-Jg-kzR" secondAttribute="bottom" id="rlQ-da-AFI"/>

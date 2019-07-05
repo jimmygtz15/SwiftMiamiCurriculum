@@ -23,7 +23,7 @@ enum ImageType {
         switch self {
         case .metallica: return UIImage(named: "andjusticeforall")!
         case .fiftycent: return UIImage(named: "grodt")!
-        case .eminem: return UIImage(named: "andjusticeforall")!
+        case .eminem: return UIImage(named: "mmlp")!
         }
     }
     
@@ -31,7 +31,7 @@ enum ImageType {
         switch self {
         case .metallica: return UIImage(named: "metallicabackground")!
         case .fiftycent: return UIImage(named: "grodtbackground")!
-        case .eminem: return UIImage(named: "metallicabackground")!
+        case .eminem: return UIImage(named: "mmlpbackground")!
             
         }
     }
@@ -47,65 +47,33 @@ enum MusicInfo {
         switch self {
         case .metallica: return ("And Justice For All")
         case .fiftycent: return ("Get Rich Or Die Tryin'")
-        case .eminem: return ("andjusticeforall")
+        case .eminem: return ("The Marshall Mathers LP")
             
         }
     }
     
-    // this doesnt work, it only return the 5 songs in its case
-    // the all songs array in my view controller is expecting more than 5
-    //error is ot of range
-    
-//    var theAlbumsongs: [String] {
-//
-//        switch self {
-//        case .metallica: return (["one",
-//                                  "And Justice For All",
-//                                  "To Live is to Die",
-//                                  "Blackened",
-//                                  "Eye of the Beholder"])
-//        case .fiftycent: return (["What up Gangsta",
-//                                  "Patiently Waiting",
-//                                  "Many Men",
-//                                  "In Da Club",
-//                                  "Back Down"])
-//        case .eminem: return (["one",
-//                               "two",
-//                               "three",
-//                               "four",
-//                               "five"])
-//
-//        }
-//
-//
-//    }
-    
-}
+    var theAlbumsongs: [String] {
 
-//ran across the same issue in music info switch case
-// put all of the songs in the same array so it can return all 15 songs together
-enum SongInfo {
-    case allSongsTogether
-    
-    var theSongs: [String] {
         switch self {
-        case .allSongsTogether: return (["one",
+        case .metallica: return (["one",
                                   "And Justice For All",
                                   "To Live is to Die",
                                   "Blackened",
-                                  "Eye of the Beholder",
-                                    "What up Gangsta",
-                                    "Patiently Waiting",
-                                    "Many Men",
-                                    "In Da Club",
-                                    "Back Down",
-                                    "one",
-                                    "two",
-                                    "three",
-                                    "four",
-                                    "five"])
-            
-        }
-}
+                                  "Eye of the Beholder"])
+        case .fiftycent: return (["What up Gangsta",
+                                  "Patiently Waiting",
+                                  "Many Men",
+                                  "In Da Club",
+                                  "Back Down"])
+        case .eminem: return (["one of eminems songs",
+                               "two giving it a longer name",
+                               "three giving it a very long name",
+                               "four",
+                               "five"])
 
+        }
+
+
+    }
+    
 }
